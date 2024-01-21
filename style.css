@@ -1,0 +1,106 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0056b3;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 15px;
+}
+
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #0056b3;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.dropzone {
+    border: 2px dashed #ccc;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.dropzone:hover {
+    border-color: #007bff;
+}
+
+.divTablefullwidth {
+    display: table;
+    width: 100%;
+}
+
+.divTable {
+    display: table;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.divTableCell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.divTableBody {
+    display: table-row-group;
+}
+
+.greenspan {
+    color: #28a745;
+}
+
+.redspan {
+    color: #dc3545;
+}
+
+.dragover {
+    border-color: #28a745;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
